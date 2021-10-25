@@ -41,7 +41,7 @@ class LoginController extends Controller
     }
 
     // ゲストログイン
-    private const GUEST_ID = 1;
+    private const GUEST_ID = 5;
 
     public function guestLogin()
     {
