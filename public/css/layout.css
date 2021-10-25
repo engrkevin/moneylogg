@@ -1,0 +1,18 @@
+/* ヘッダーアイコンの修正 */
+.navbar-light .navbar-brand {
+  color: rgba(52, 144, 244, 1) !important;
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: rgba(104, 177, 248, 0.9) !important;
+}
+
+.navbar-brand {
+  font-size: 1.8rem !important;
+  font-weight: bold;
+}
+
+.plus-button {
+  color: white;
+}
