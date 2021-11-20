@@ -1,3 +1,42 @@
+## MoneyLogg
+
+URL：[moneylogg.herokuapp.com](http://moneylogg.herokuapp.com)
+
+## サイト概要
+MoneyLoggは、支出を記録できる家計簿ウェブアプリです。  
+支出の追加、編集、削除や今月の支出の合計金額を自動で表示する機能を搭載しています。
+
+## 制作の目的
+支出をWeb上で簡単に記録できるような家計簿ツールが欲しいと思い、自作しました。  
+シンプルな機能でユーザーのアクションを減らし、快適に支出を記録できるようにすることを意識しました。
+
+## 使い方
+|  | 画像 | 説明 |
+----|----|----
+| ログイン | <img width="1140" alt="login" src="https://user-images.githubusercontent.com/92033434/142710406-d3d35745-fbde-4a51-9acd-95d183ceb8bd.png"> | 右上の「ゲストログイン」ボタンをクリックすると、ログインできます。 |
+| 一覧表示 | <img width="1140" alt="home" src="https://user-images.githubusercontent.com/92033434/142710413-daaef7e6-ca07-496b-9998-f1ed917fea89.png"> | 支出が購入日の新しい順に一覧表示されます。 |
+| 新規作成 | <img width="1140" alt="create" src="https://user-images.githubusercontent.com/92033434/142710418-2d747476-89fc-4cd9-a9ad-c0270438dc3c.png"> | 支出一覧右上の「プラス」ボタンをクリックすると、新規作成画面が表示されます。内容を入力し、「保存」ボタンをクリックすると、新規作成されます。 |
+| 編集・削除 | <img width="1140" alt="update" src="https://user-images.githubusercontent.com/92033434/142710424-901f1c2c-213f-4606-83b2-531134d63519.png"> | ホーム画面の一覧表示でタイトルをクリックすると、編集画面が表示されます。内容を入力し、「更新」ボタンをクリックすると、内容が更新されます。右上の「ゴミ箱」ボタンをクリックすると、削除されます。 |
+| 今月の支出表示 | <img width="1140" alt="monthly" src="https://user-images.githubusercontent.com/92033434/142710429-91b67836-8c57-40c6-bc21-7ed7ae480454.png"> | ホーム画面下部に今月の支出の合計が自動で表示されます。 |
+
+## 機能
+- ユーザー登録・ログイン機能
+    - ゲストログイン機能
+- 支出一覧表示機能
+- 新規作成機能
+    - バリデーション機能  
+- 編集機能
+    - バリデーション機能  
+- 削除機能
+- 今月の支出表示機能
+
+## 使用技術
+- PHP 
+- Laravel 6
+- Bootstrap 4
+- MySQL 
+- Heroku
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
